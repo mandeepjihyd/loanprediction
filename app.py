@@ -26,7 +26,7 @@ if model:
 def home():
     return render_template('home.html')
 
-@app.route('/predict', methods=['POST'])
+@app.route('/predict', methods=['GET'])
 def predict():
     if model:
         try:
