@@ -1,3 +1,4 @@
+Cython==3.0.10
 adbc_driver_manager==0.11.0
 adbc_driver_postgresql==0.11.0
 adbc_driver_sqlite==0.11.0
@@ -12,7 +13,6 @@ ConfigParser==6.0.1
 contextlib2==21.6.0
 cryptography==42.0.5
 cycler==0.12.1
-Cython==3.0.10
 dask==2024.4.1
 docutils==0.21.1
 fastparquet==2024.2.0
