@@ -46,4 +46,7 @@ def predict():
             return f"An error occurred during prediction: {e}"
     else:
         return "Model is not loaded. Please check the server logs."
+        
+if __name__ == "__main__":
+    app.run(debug=True)
 
