@@ -1,5 +1,3 @@
-aext_core_server                  0.4.0
-aext_shared                       0.4.0
 aiobotocore                       2.7.0
 aiofiles                          22.1.0
 aiohttp                           3.9.3
