@@ -3,7 +3,7 @@ import pickle
 import numpy as np
 import os
 
-app = Flask(__name__, template_folder=r"C:\Users\DELL\mandeeproject\newmodel\template")
+app = Flask(__name__, template_folder)
 
 # Define the path to the model file
 file_path = r'C:\Users\DELL\mandeeproject\newmodel\loan_status_model.pkl'
